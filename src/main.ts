@@ -3,6 +3,6 @@ const studentList = document.getElementById("student-list") as HTMLUListElement;
 
 students.forEach((student) => {
   const li = document.createElement("li");
-  li.textContent = `${student.name} ${student.lastName}`;
+  li.textContent = `${student.name} ${student.lastName} ${student.age} år`;
   studentList.appendChild(li);
 });
